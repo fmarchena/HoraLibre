@@ -2,6 +2,8 @@
 
 **HoraLibre** es una API RESTful desarrollada con Laravel 12 y desplegada en Laravel Vapor. Diseñada para profesionales de cualquier rubro (médicos, psicólogos, coaches, abogados, etc.), permite gestionar agendas, recibir reservas y automatizar recordatorios, todo con buenas prácticas y escalabilidad SaaS.
 
+TEST
+
 ---
 
 ## 🚀 Características
