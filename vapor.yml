@@ -1,0 +1,16 @@
+id: 71793
+name: citas-api
+team: Personal 
+environments:
+  production:
+    runtime: 'php-8.2:al2'
+    memory: 512
+    cli-memory: 512
+    database: citas-api-db
+    storage: citas-api-assets
+    build:
+      - 'composer install --no-dev'
+   
+    deploy:
+      - 'php artisan migrate --force'
+      
